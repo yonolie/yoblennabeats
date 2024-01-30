@@ -1,0 +1,279 @@
+/* ----------------body  -----------------*/
+body {
+    background-color: rgb(0, 0, 0);
+
+}
+
+a:hover {
+    color: orange;
+}
+
+p {
+    color: white
+}
+
+/* ----------------header sttijlen -----------------*/
+nav {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    text-align: center;
+}
+
+header nav ul li {
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.4em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+/* ----------------home -----------------*/
+
+.homeb img {
+    width: 100%;
+}
+
+.homeb a {
+    text-decoration: none;
+    position: absolute;
+    top: 490px;
+    left: 85%;
+    color: white;
+    border: solid;
+    padding: 0.3em;
+    font-size: 1.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    
+
+}
+
+
+.homeb h1 {
+    position: absolute;
+    top: 6em;
+    left: 75%;
+    color: white;
+    font-size: 2.5rem
+}
+
+.homeb h2 {
+    color: white;
+    text-align: center;
+}
+
+.homeb h3 {
+    text-align: center;
+    color: white;
+}
+
+.homeb p {
+    position: absolute;
+    top: 4em;
+    left: 80%;
+    font-size: 4rem;
+}
+
+
+iframe {
+    border: none;
+}
+
+.homeb section:nth-of-type(2) {
+    display: flex;
+    justify-content: space-around;
+}
+
+.homeb section:nth-of-type(3) {
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.homeb video {
+    width: 20em;
+    height: auto;
+}
+
+.homeb :hover {
+    border-color: orange;
+    transition: 900ms;
+    
+}
+.homeb a:hover {
+    rotate: -359deg;
+}
+
+
+
+
+
+
+/* ----------------inspiratie -----------------*/
+h1 {
+    color: orange;
+    text-align: center;
+}
+
+.inspo {
+    color: white;
+}
+
+.inspo div {
+    text-align: center;
+    font-size: 2em;
+}
+
+
+.inspo section:nth-of-type(odd) {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.inspo section:nth-of-type(even) {
+    display: flex;
+    flex-direction: row;
+}
+
+.inspo img {
+    transition: all 100ms ease;
+}
+
+.inspo img:hover {
+    width: 300%;
+}
+
+
+
+
+/* ----------------productions -----------------*/
+
+.productions div {
+
+    display: flex;
+}
+
+.productions div iframe {
+    width: 100%;
+    height: 400px;
+
+
+}
+
+.productions section div:nth-of-type(1) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.productions section {
+    display: flex;
+}
+
+.productions img:first-child {
+    width: 330px;
+    height: auto;
+}
+
+.productions img:last-child {
+    width: 100%;
+}
+
+.productions h1 {
+    align-self: flex-start;
+    font-size: 2.5rem;
+}
+
+.productions h2 {
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.productions h3 {
+    color: white;
+    text-align: center;
+
+}
+
+.productions article div {
+    color: white;
+    width: 50%;
+    border-radius: 1em;
+    margin-left: 6em;
+    margin-right: 6em;
+    margin: auto;
+    background-color: orange;
+    font-size: 150%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.productions section:nth-of-type(2) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: orange;
+    color: white;
+}
+
+.productions img:nth-of-type(2) {
+    width: 100%;
+}
+
+
+/* ----------------about us  -----------------*/
+.about p {
+    font-size: 1.2rem;
+    width: 90%;
+}
+
+.about h2 {
+    color: white;
+}
+
+.about h3 {
+    color: white;
+}
+
+.about section:nth-of-type(1) {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.about section img:nth-of-type(1) {
+    width: 60vw;
+    height: 70vh;
+    margin-right: 5%;
+    margin-left: 2%;
+}
+
+
+/* ----------------footer stijlen  -----------------*/
+footer p {
+    text-align: center;
+}
+
+/* ---------------- bronnen  -----------------*/
+.bron h2 {
+    color: white;
+
+}
